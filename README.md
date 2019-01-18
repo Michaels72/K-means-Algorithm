@@ -2,7 +2,8 @@
 
 Application of the K-means Clustering Algorithm on the Iris Dataset:
 
-![](output_37_0.png)
+![](image/output_37_0.png)
+![](image/output_36_0.png)
 
 Homework Assignment
 Implement the K-means algorithm from scratch, and test it on the classic Fisher's Iris dataset.
