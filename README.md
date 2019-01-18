@@ -1,10 +1,14 @@
 # K-means-Algorithm
 
-Application of the K-means Clustering Algorithm on the Iris Dataset:
+Application of the K-means Clustering Algorithm on the Iris Dataset.
 
-![](image/output_37_0.png)
+This graph shows the 2 dimensional representation of the iris petal length, width sepal length.
+
 ![](image/output_36_0.png)
 
+This graph shows the 3 dimensional representation of the iris petal length, width sepal length.
+
+![](image/output_37_0.png)
 Homework Assignment
 Implement the K-means algorithm from scratch, and test it on the classic Fisher's Iris dataset.
 
