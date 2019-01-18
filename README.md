@@ -9,7 +9,10 @@ This graph shows the 2 dimensional representation of the iris petal length, widt
 This graph shows the 3 dimensional representation of the iris petal length, width sepal length.
 
 ![](image/output_37_0.png)
-Homework Assignment
+
+
+Homework Assignment:
+
 Implement the K-means algorithm from scratch, and test it on the classic Fisher's Iris dataset.
 
 K-means Algorithm Summary
@@ -19,10 +22,6 @@ Assign each data point to the centroid closest to it
 Move the cluster centroid to the center (mean) of all the points assigned to it
 Repeat until you reach stopping criteria (either convergence or maximum iterations)
 Typically k-means is performed on scaled data.
-
-kmean (refresh/click to see animation)
-
-Image Source
 
 Part 1: Implementation
 You should implement k-means using either a functional or object-oriented approach. An object-oriented implementation might have a KMeans class with a "fit" method, and a functional implementation might have a "k_means" function that takes the data and numer of clusters as arguments and returns the centroids and assignemnts.
@@ -48,14 +47,3 @@ Visualize the centroid assignments. Create a plot of the cluster assignments on 
 
 
 
-Compare your cluster results with scikit-learn Kmeans. Since K-means is a stochastic algorithm (random initialization) your result will be slightly (but hopefully not too) different.
-Extra Credit
-The standard k-means has some failings. kmeans++ (visualized) solves the issue of picking the initial cluster centroids.
-
-Variants
-Implement the kmeans++ initialization in your algorithm.
-Another variation on k-means is bi-secting kmeans. Adapt your code to implement bisecting kmeans.
-Animation
-matplotlib actually has a decent animation package that can visualize a sequence of plots.
-
-Visualize the convergence of your algorithm on the iris dataset. Using matplotlibs animation framework, visualize the cluster assignments at each step of the iteration. To keep things simple choose 2 features to visualize, if you are feeling fancy you can make a 3-d plot that is animated.
