@@ -1,5 +1,8 @@
 # K-means-Algorithm
 
+![](https://cdn.app.compendium.com/uploads/user/e7c690e8-6ff9-102a-ac6d-e4aebca50425/f0499405-1197-4b43-b7c5-40548eeb9f34/File/9b5d5bd03696c340d213ba9af955b13c/clustering_and_k_means_machine_learning.png)
+
+
 Application of the K-means Clustering Algorithm on the Iris Dataset.
 
 This graph shows the 2 dimensional representation of the iris petal length, width sepal length.
